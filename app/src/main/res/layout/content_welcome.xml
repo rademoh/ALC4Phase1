@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content"
+    android:layout_margin="16dp"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".WelcomeActivity"
+    tools:showIn="@layout/activity_welcome">
+
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_marginTop="40dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="sans-serif"
+            android:text="Welcome to ALC 4.O"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textSize="24sp"
+            android:typeface="normal" />
+
+
+        <Button
+            android:id="@+id/aboutBtn"
+            android:layout_marginTop="40dp"
+            android:padding="10dp"
+            android:backgroundTint="@color/colorOrange"
+            android:layout_gravity="center"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="ABOUT ALC" />
+
+        <Button
+            android:id="@+id/profileBtn"
+            android:padding="10dp"
+            android:backgroundTint="@color/colorOrange"
+            android:layout_marginTop="40dp"
+            android:layout_gravity="center"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="MY PROFILE" />
+
+</LinearLayout>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Alc4ChallengeOne</string>
+    <string name="title_activity_about">About ALC</string>
+    <string name="title_activity_my_profile">My Profile</string>
+    <string name="title_activity_welcome">ALC 4 Phase 1</string>
+    <string name="username">\@rademoh</string>
+</resources>
